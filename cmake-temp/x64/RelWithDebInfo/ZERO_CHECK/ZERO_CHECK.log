@@ -1,4 +1,4 @@
-﻿生成启动时间为 2021/7/5 15:10:16。
+﻿生成启动时间为 2021/7/11 11:26:50。
      1>项目“D:\work_xing\project\eview-commondriver\cmake-temp\ZERO_CHECK.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>CustomBuild:
          Checking Build System
@@ -19,6 +19,7 @@
          CMake does not need to re-run because D:/work_xing/project/eview-commondriver/cmake-temp/drivers/sampledrv/CMakeFiles/generate.stamp is up-to-date.
          CMake does not need to re-run because D:/work_xing/project/eview-commondriver/cmake-temp/drivers/commondrv/CMakeFiles/generate.stamp is up-to-date.
          CMake does not need to re-run because D:/work_xing/project/eview-commondriver/cmake-temp/drivers/bacnetdrv/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/work_xing/project/eview-commondriver/cmake-temp/drivers/eventdrv/CMakeFiles/generate.stamp is up-to-date.
          CMake does not need to re-run because D:/work_xing/project/eview-commondriver/cmake-temp/drivers/gwmqttdrv/CMakeFiles/generate.stamp is up-to-date.
          CMake does not need to re-run because D:/work_xing/project/eview-commondriver/cmake-temp/drivers/mnmqttdrv/CMakeFiles/generate.stamp is up-to-date.
          CMake does not need to re-run because D:/work_xing/project/eview-commondriver/cmake-temp/drivers/exceldrv/CMakeFiles/generate.stamp is up-to-date.
@@ -35,4 +36,4 @@
 
 生成成功。
 
-已用时间 00:00:00.29
+已用时间 00:00:00.11

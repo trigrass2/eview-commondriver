@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<CompanyConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>DMD2-2.01</Name>
-  <CompanyInfos>
-    <CompanyInfo LanguageCode="zh-CN" SoftwareName="DMD2-2.01" CompanyName="" WebSites="" />
-    <CompanyInfo LanguageCode="en-US" SoftwareName="DMD2-2.01" CompanyName="" WebSites="" />
-    <CompanyInfo LanguageCode="zh-CHT" SoftwareName="DMD2-2.01" CompanyName="" WebSites="" />
-  </CompanyInfos>
-</CompanyConfig>

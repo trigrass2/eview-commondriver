@@ -1,0 +1,21 @@
+﻿生成启动时间为 2021/7/11 11:26:50。
+     1>项目“D:\work_xing\project\eview-commondriver\cmake-temp\drivers\eventdrv\eventdrv.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/work_xing/project/eview-commondriver/source/drivers/eventdrv/CMakeLists.txt
+         CMake does not need to re-run because D:\work_xing\project\eview-commondriver\cmake-temp\drivers\eventdrv\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\work_xing\project\eview-commondriver\source\drivers\eventdrv\include" /I"D:\work_xing\project\eview-commondriver\source\..\include" /Zi /nologo /W3 /WX- /MP /Od /Ob1 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D BOOST_NO_USER_CONFIG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D eventdrv_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"eventdrv.dir\RelWithDebInfo\\" /Fd"eventdrv.dir\RelWithDebInfo\vc120.pdb" /Gd /TP /errorReport:prompt "D:\work_xing\project\eview-commondriver\source\drivers\eventdrv\eventdrv.cpp"
+         eventdrv.cpp
+     1>D:\work_xing\project\eview-commondriver\source\drivers\eventdrv\eventdrv.cpp(184): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D BOOST_NO_USER_CONFIG /D "CMAKE_INTDIR=\\\"RelWithDebInfo\\\"" /D eventdrv_EXPORTS /l"0x0409" /I"D:\work_xing\project\eview-commondriver\source\drivers\eventdrv\include" /I"D:\work_xing\project\eview-commondriver\source\..\include" /nologo /fo"eventdrv.dir\RelWithDebInfo\version.res" D:\work_xing\project\eview-commondriver\cmake-temp\drivers\eventdrv\version.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work_xing\project\eview-commondriver\bin\drivers\eventdrv\eventdrv.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:/work_xing/project/eview-commondriver/source/../lib" /LIBPATH:"D:/work_xing/project/eview-commondriver/source/../lib/RelWithDebInfo" /LIBPATH:"D:/work_xing/project/eview-commondriver/source/../bin" /LIBPATH:"D:/work_xing/project/eview-commondriver/source/../bin/RelWithDebInfo" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib pkdrvcmn.lib pkdbapi.lib pkcomm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/work_xing/project/eview-commondriver/bin/drivers/eventdrv/eventdrv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/work_xing/project/eview-commondriver/lib/eventdrv.lib" /MACHINE:X64  /machine:x64 /DLL eventdrv.dir\RelWithDebInfo\version.res
+         eventdrv.dir\RelWithDebInfo\eventdrv.obj
+            正在创建库 D:/work_xing/project/eview-commondriver/lib/eventdrv.lib 和对象 D:/work_xing/project/eview-commondriver/lib/eventdrv.exp
+         eventdrv.vcxproj -> D:\work_xing\project\eview-commondriver\bin\drivers\eventdrv\eventdrv.dll
+     1>已完成生成项目“D:\work_xing\project\eview-commondriver\cmake-temp\drivers\eventdrv\eventdrv.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.68

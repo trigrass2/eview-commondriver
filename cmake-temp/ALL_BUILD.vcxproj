@@ -186,6 +186,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="D:/work_xing/project/eview-commondriver/cmake-temp/drivers/dhvideoinfo/dhvideoinfo.vcxproj">
       <Project>58AF6A25-D542-31B6-B076-95697E783E5A</Project>
     </ProjectReference>
+    <ProjectReference Include="D:/work_xing/project/eview-commondriver/cmake-temp/drivers/eventdrv/eventdrv.vcxproj">
+      <Project>4B4FC3E5-B7B4-3BA0-B40D-F6B71AB67B28</Project>
+    </ProjectReference>
     <ProjectReference Include="D:/work_xing/project/eview-commondriver/cmake-temp/drivers/eviewdatadrv/eviewdatadrv.vcxproj">
       <Project>C61D135F-6C8A-3997-BFD1-3E2E3DAA9A71</Project>
     </ProjectReference>

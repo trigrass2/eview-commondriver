@@ -1,2 +1,0 @@
-还需要依赖etree，etree.pyd，是C++模块，需要区分32位还是64位
-最好使用pip install pyquery安装依赖的模块，然后拷贝到这里来

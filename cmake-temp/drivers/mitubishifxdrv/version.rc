@@ -48,8 +48,8 @@ END
 // Version
 //
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 2021,06,29
- PRODUCTVERSION 2021,06,29
+ FILEVERSION 2021,07,11
+ PRODUCTVERSION 2021,07,11
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -66,12 +66,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "上海凌峰信息技术有限公司"
             VALUE "FileDescription", "mitubishifxdrv X64"
-  			VALUE "FileVersion", "2021,06,29"
+  			VALUE "FileVersion", "2021,07,11"
             VALUE "InternalName", "mitubishifxdrv X64"
             VALUE "LegalCopyright", "Copyright (C) 2012-2021 PeakInfo"
             VALUE "OriginalFilename", "mitubishifxdrv X64"
             VALUE "ProductName", "eview"
-            VALUE "ProductVersion", "2021.06.29"
+            VALUE "ProductVersion", "2021.07.11"
         END
     END
     BLOCK "VarFileInfo"

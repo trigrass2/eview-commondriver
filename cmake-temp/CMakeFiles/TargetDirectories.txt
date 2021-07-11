@@ -31,6 +31,8 @@ D:/work_xing/project/eview-commondriver/cmake-temp/drivers/commondrv/CMakeFiles/
 D:/work_xing/project/eview-commondriver/cmake-temp/drivers/commondrv/CMakeFiles/ALL_BUILD.dir
 D:/work_xing/project/eview-commondriver/cmake-temp/drivers/bacnetdrv/CMakeFiles/bacnetdrv.dir
 D:/work_xing/project/eview-commondriver/cmake-temp/drivers/bacnetdrv/CMakeFiles/ALL_BUILD.dir
+D:/work_xing/project/eview-commondriver/cmake-temp/drivers/eventdrv/CMakeFiles/eventdrv.dir
+D:/work_xing/project/eview-commondriver/cmake-temp/drivers/eventdrv/CMakeFiles/ALL_BUILD.dir
 D:/work_xing/project/eview-commondriver/cmake-temp/drivers/gwmqttdrv/CMakeFiles/gwmqttdrv.dir
 D:/work_xing/project/eview-commondriver/cmake-temp/drivers/gwmqttdrv/CMakeFiles/ALL_BUILD.dir
 D:/work_xing/project/eview-commondriver/cmake-temp/drivers/mnmqttdrv/CMakeFiles/mnmqttdrv.dir

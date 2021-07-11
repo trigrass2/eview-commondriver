@@ -218,6 +218,15 @@ drivers_BINARY_DIR:STATIC=D:/work_xing/project/eview-commondriver/cmake-temp/dri
 drivers_SOURCE_DIR:STATIC=D:/work_xing/project/eview-commondriver/source/drivers
 
 //Value Computed by CMake
+eventdrv_BINARY_DIR:STATIC=D:/work_xing/project/eview-commondriver/cmake-temp/drivers/eventdrv
+
+//Dependencies for the target
+eventdrv_LIB_DEPENDS:STATIC=general;pkdrvcmn;general;pkdbapi;general;pkcomm;
+
+//Value Computed by CMake
+eventdrv_SOURCE_DIR:STATIC=D:/work_xing/project/eview-commondriver/source/drivers/eventdrv
+
+//Value Computed by CMake
 eview-commondriver_BINARY_DIR:STATIC=D:/work_xing/project/eview-commondriver/cmake-temp
 
 //Value Computed by CMake
@@ -467,7 +476,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=29
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
 //ADVANCED property for variable: CMAKE_RC_COMPILER
 CMAKE_RC_COMPILER-ADVANCED:INTERNAL=1
 CMAKE_RC_COMPILER_WORKS:INTERNAL=1
