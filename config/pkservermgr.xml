@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="GB2312" standalone="yes" ?>
+<Servers desc="AutoRestart;DelaySec(seconds);ShowConsole;ExeName,ExeDir;StartCmd;StopCmd;DelaySec;Exclude;RestartAt:Day=1/1;Hour=*;Minute=*" />

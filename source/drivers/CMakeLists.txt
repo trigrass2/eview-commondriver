@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.6)
+PROJECT(drivers)
+
+SUBDIRS(snmpdrv dbdrv  pingdrv iec104drv modbustcp modbusrtu mitubishifxdrv abcipdrv abdf1drv omronfinsdrv simenss7drv  eviewdatadrv sampledrv commondrv bacnetdrv)
+#SUBDIRS(hostdriver)
+IF(${CMAKE_SYSTEM_NAME} MATCHES Windows)
+    SUBDIRS(gwmqttdrv mnmqttdrv exceldrv csvdrv libnodavetest opc pdfdrv)
+	if( CMAKE_SIZEOF_VOID_P EQUAL 4)
+	endif( CMAKE_SIZEOF_VOID_P EQUAL 4)
+	SUBDIRS(dhvideoinfo)
+ELSE()
+ENDIF()

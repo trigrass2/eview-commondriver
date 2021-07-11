@@ -1,0 +1,14 @@
+open ftp.peakinfo.cn 
+user peak peak 
+binary 
+literal pasv 
+prompt off 
+lcd ../../repo 
+mkdir /release/eview-server/win64-vs2013 
+mkdir /release/eview-server/win64-vs2013/backup 
+cd /release/eview-server/win64-vs2013 
+mput eview-server-commondriver.rar  
+cd /release/eview-server/win64-vs2013/backup 
+mput eview-server-commondriver-2*.rar  
+close 
+bye 

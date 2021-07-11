@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\AutoGroup_ObjDev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\COPCCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\OPCGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\OPCItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\OPCServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\OPCServerTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\OpcEnum_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\opccomn_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\opcda_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\opcdrv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work_xing\project\eview-commondriver\source\drivers\opc\opcdrv\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\work_xing\project\eview-commondriver\cmake-temp\drivers\opc\opcdrv\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FE3D8789-B4F5-3D85-BA37-B622A5AAF7A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

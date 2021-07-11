@@ -1,0 +1,13 @@
+C++驱动开发环境搭建说明
+1、更新代码
+2、在source\drivers\目录下，拷贝sampledrv并改名为要开发的驱动如：xxxxdrv，并将sampledrv下的含有sampdrv的文件改名为xxxxdrv，文件内容中的sampledrv替换为xxxxdrv
+3、source\drivers\CMakeLists.txt的subdirs中加入xxxxdrv
+4、执行:buildtools\windows\prebuild-win32-vs2013.bat，win32-vs2013根据实际的情况选择不同的文件
+5、执行:buildtools\windows\build-win32-vs2013.bat，win32-vs2013根据实际的情况选择不同的批处理执行
+6、打开VS2013，选择cmake-win32-vs2013目录下的eview-drivers.sln
+7、选择RelWithDebug+Win32选项，进行编译
+
+具体驱动要实现的接口见：doc\eview驱动二次开发手册-C++.doc
+
+Python驱动开发环境搭建说明
+见：doc\eview驱动二次开发手册-Python.doc

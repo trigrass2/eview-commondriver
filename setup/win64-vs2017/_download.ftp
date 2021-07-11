@@ -1,0 +1,12 @@
+open ftp.peakinfo.cn 
+user peak peak 
+binary 
+literal pasv 
+prompt off 
+lcd ../../thirdparty 
+cd /release/cccomps/win64-vs2017/ 
+mget cmake.rar pkcomm.rar pklog.rar pkdbapi.rar pkmqtt.rar jsoncpp.rar pkce.rar snmp_pp.rar libdes.rar libxl.rar python2.7.rar
+cd /release/eview-server/win64-vs2017/ 
+mget eview-server-driversdk.rar eview-pkdata.rar
+close 
+bye 

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoftVersion>DMD2-2.01</SoftVersion>
+  <VersionCfgs>
+    <VersionModuleInfo VersionName="DMD2-2.01" InChnnNum="16" OutChnnNum="16" InDigitChnNum="0" OutDigitChnNum="0" IsHaveAutoMixer="true" IsHaveAFC="true" IsHaveAEC="true" IsHaveANS="false" IsHaveDante="false" IsHaveUSB="true" IsHaveTEL="false" IsHaveDuck="false" IsHaveSPL="false" IsHavePower="false" TopoName="default" TopoKey="309902763" IsRec="false" IsHaveDoubleDsp="false" />
+  </VersionCfgs>
+</ModuleConfig>

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0"?>
+<ArrayOfDspConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--/*输入源*/-->
+  <DspConfig DspName="InputSource" DspType="Inputter" CompileIndexs="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23" CompileType="12"/>
+
+  <!--/*信号器*/-->
+  <DspConfig DspName="GEN" DspType="GEN" CompileIndexs="24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39" CompileType="5"/>
+
+  <!--/*输入源与信号器的路由*/-->
+  <DspConfig DspName="InRouter" DspType="Router" CompileType="18" CompileIndexs="40">
+    <Propertys>
+      <PropertyValue Name="Type" Value="1" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*输入通道电平表*/-->
+  <DspConfig DspName="InMeter" DspType="Meter" CompileType="16" CompileIndexs="41">
+    <Propertys>
+      <PropertyValue Name="Type" Value="1" />
+      <PropertyValue Name="LevelInNumStr" Value="82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*扩展器*/-->
+  <DspConfig DspName="Expander" DspType="Expander" CompileType="23" CompileIndexs="42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57" />
+
+  <!--/*五段均衡*/-->
+  <DspConfig DspName="INPEQ5" DspType="Equalizer_P" CompileType="2" CompileIndexs="58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73">
+    <Propertys>
+      <PropertyValue Name="SectionNum" Value="5" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*4X4的31段图示均衡*/-->
+  <DspConfig DspName="INPEQ31" DspType="Equalizer_G"  CompileType="3" CompileIndexs="58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73">
+    <Propertys>
+      <PropertyValue Name="SectionNum" Value="31" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*压限器*/-->
+  <DspConfig DspName="Compress" DspType="Compress" CompileType="4" CompileIndexs="74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89" />
+
+  <!--/*自动增益*/-->
+  <DspConfig DspName="AGC" DspType="AGC" CompileType="14" CompileIndexs="90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105" />
+
+
+  <!--输入通道自动增益后的路由器16*66 (/*输入通道Ducker前面的路由器*/)-->
+  <DspConfig DspName="InAGCRouter" DspType="Router" CompileType="18" CompileIndexs="106">
+    <Propertys>
+      <PropertyValue Name="Type" Value="2" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*输入通道Ducker前增益控制器*/-->
+  <!--
+  <DspConfig DspName="InDuckerGain" DspType="Gain" CompileType="17" CompileIndexs="50">
+    <Propertys>
+      <PropertyValue Name="Type" Value="3" />
+    </Propertys>
+  </DspConfig>-->
+
+  <!--/*输入通道ANC前面的路由器*/-->
+  <!--
+  <DspConfig DspName="InANCRouter" DspType="Router" CompileType="18" CompileIndexs="48">
+    <Propertys>
+      <PropertyValue Name="Type" Value="6" />
+    </Propertys>
+  </DspConfig>-->
+
+  <!--/*输入ANC前面通道增益控制器*/-->
+  <!--
+  <DspConfig DspName="InANCGain" DspType="Gain" CompileType="17" CompileIndexs="51">
+    <Propertys>
+      <PropertyValue Name="Type" Value="4" />
+    </Propertys>
+  </DspConfig>-->
+
+  <!--/*输入增益/-->
+  <!--
+  <DspConfig DspName="InGain" DspType="Gain" CompileType="17" CompileIndexs="52,53,54,55,56,57,58,59,60,61,62,63">
+    <Propertys>
+      <PropertyValue Name="Type" Value="1" />
+    </Propertys>
+  </DspConfig>-->
+
+
+  <!--输入自动混音器 16*2 -->
+  <DspConfig DspName="AutoMixer" DspType="AutoMixer" CompileType="20" CompileIndexs="107" >
+  <Propertys>
+    <PropertyValue Name="InMixerIndex" Value="35" />
+    <PropertyValue Name="ChanCount" Value="16" />
+  </Propertys>
+  </DspConfig>
+
+
+  <!--输入Ducker前的混音器 16*2 -->
+  <DspConfig DspName="INDuckerMixer" DspType="Mixer" CompileType="6" CompileIndexs="108">
+    <Propertys>
+      <PropertyValue Name="Type" Value="1" />
+      <PropertyValue Name="InNum" Value="16" />
+      <PropertyValue Name="OutNum" Value="2" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*输入通道Ducker*/-->
+  <DspConfig DspName="InDucker" DspType="Ducker" CompileType="19" CompileIndexs="109" />
+
+  <!--/*输入ANC*/-->
+  <DspConfig DspName="InANC" DspType="ANC" CompileType="25" CompileIndexs="110" />
+
+
+  <!--输入Ducker后的路由器 4*4 ???-->
+  <DspConfig DspName="InDuckerRouter" DspType="Router" CompileType="18" CompileIndexs="111">
+   <Propertys>
+      <PropertyValue Name="Type" Value="3" />
+    </Propertys>
+  </DspConfig>
+   
+
+  <!--输入AFC前的混音器 (/*ANC前混音器:INANCMixer*/)-->
+  <DspConfig DspName="INAFCMixer" DspType="Mixer" CompileType="6" CompileIndexs="112">
+    <Propertys>
+      <PropertyValue Name="Type" Value="2" />
+      <PropertyValue Name="InNum" Value="18" />
+      <PropertyValue Name="OutNum" Value="4" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*反馈抑制器*/-->
+  <DspConfig DspName="AFC" DspType="AFC" CompileType="15" CompileIndexs="113" >
+  <Propertys>
+    <PropertyValue Name="InMixerIndex" Value="32" />
+  </Propertys>
+  </DspConfig>
+
+  <!--/*输出ANS*/-->
+  <DspConfig DspName="InANS" DspType="ANS" CompileType="27" CompileIndexs="114" >
+    <Propertys>
+    <PropertyValue Name="InMixerIndex" Value="33" />
+  </Propertys>
+  </DspConfig>
+
+  <!--/*总的混音器,AEC前的混音器 20*18 */-->
+  <DspConfig DspName="AllMixer" DspType="Mixer" CompileType="6" CompileIndexs="116">
+    <Propertys>
+      <PropertyValue Name="Type" Value="3" />
+        <PropertyValue Name="InNum" Value="29" />
+      <PropertyValue Name="OutNum" Value="24" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*总的混音器,AEC前的混音器 39*32 */
+  <DspConfig DspName="AllMixerEx" DspType="MixerEx" CompileType="6" CompileIndexs="116">
+    <Propertys>
+      <PropertyValue Name="Type" Value="3" />
+    </Propertys>
+  </DspConfig>-->
+
+  <!--/*总混音器之后speaker之前AEC*/-->
+  <DspConfig DspName="AEC" DspType="AEC" CompileType="26" CompileIndexs="115" >
+    <Propertys>
+    <PropertyValue Name="InMixerIndex" Value="34" />
+  </Propertys>
+  </DspConfig>
+
+
+  <!--总混音器之后的路由器 17*56 (/*矩阵输出路由-spearker之前:OutRouter1*/)-->
+  <DspConfig DspName="InAllMixerRouter" DspType="Router" CompileType="18" CompileIndexs="117">
+    <Propertys>
+      <PropertyValue Name="Type" Value="4" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*speaker之前电平*/-->
+  <DspConfig DspName="OutMeter1" DspType="Meter" CompileType="16" CompileIndexs="118">
+    <Propertys>
+      <PropertyValue Name="Type" Value="2" />
+      <PropertyValue Name="LevelInNumStr" Value="300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*延时器*/-->
+  <DspConfig DspName="Delay" DspType="Delay" CompileType="7" CompileIndexs="119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134" />
+
+  <!--/*分频器*/-->
+  <DspConfig DspName="XOVER" DspType="XOVER" CompileType="8" CompileIndexs="135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150" />
+
+  <!--/*奥维亚的31段图示均衡*/-->
+  <DspConfig DspName="OUTPEQ31" DspType="Equalizer_G"  CompileType="3" CompileIndexs="151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166">
+    <Propertys>
+      <PropertyValue Name="SectionNum" Value="31" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*反相*/-->
+  <DspConfig DspName="Invert" DspType="Inverter" CompileType="10" CompileIndexs="167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182" />
+
+  <!--/*输出增益*/-->
+  <DspConfig DspName="OutGain" DspType="Gain" CompileType="17" CompileIndexs="183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198">
+    <Propertys>
+      <PropertyValue Name="Type" Value="2" />
+    </Propertys>
+  </DspConfig>
+
+
+  <!--speaker中的路由器，输出增益后 32*32 (/*矩阵输出路由-spearker之后:OutRouter2*/)-->
+  <DspConfig DspName="OutGainRouter" DspType="Router" CompileType="18" CompileIndexs="199">
+    <Propertys>
+      <PropertyValue Name="Type" Value="5" />
+    </Propertys>
+  </DspConfig>
+
+
+  <!--/*speaker之后电平*/-->
+  <DspConfig DspName="OutMeter2" DspType="Meter" CompileType="16" CompileIndexs="200">
+    <Propertys>
+      <PropertyValue Name="Type" Value="3" />
+      <PropertyValue Name="LevelInNumStr" Value="348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*限幅器*/-->
+  <DspConfig DspName="Limiter" DspType="Limiter" CompileType="24" CompileIndexs="201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216" />
+
+  <!--输出之前的路由 24*32 -->
+  <DspConfig DspName="OutputRouter" DspType="Router" CompileType="18" CompileIndexs="217">
+    <Propertys>
+      <PropertyValue Name="Type" Value="6" />
+    </Propertys>
+  </DspConfig>
+
+
+  <!--/*输出通道电平表*/-->
+  <DspConfig DspName="OutMeter3" DspType="Meter" CompileType="16" CompileIndexs="218">
+    <Propertys>
+      <PropertyValue Name="Type" Value="4" />
+      <PropertyValue Name="LevelInNumStr" Value="316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331" />
+    </Propertys>
+  </DspConfig>
+
+  <!--/*输出阀*/-->
+  <DspConfig DspName="Output" DspType="Outputter" CompileType="13" CompileIndexs="219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242" />
+
+  <!--/*Group分组*/-->
+  <!--DspConfig DspName="MixerAux" DspType="MixerAux" CompileType="-3" CompileIndexs="243,244,245,246,247,248" //-->
+
+  <!--/*Group分组*/-->
+  <!--DspConfig DspName="Group" DspType="Grouper" CompileType="-1" CompileIndexs="249,250" /-->
+
+  <!--/*DCA分组*/-->
+  <DspConfig DspName="DCA" DspType="DCAer" CompileType="-2" CompileIndexs="251,252,253,254,255,256,257,258" />
+
+</ArrayOfDspConfig>

@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\AutoGroup_ObjDev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\abort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\address.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\alarm_ack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\apdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\arf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\awf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacaddr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacdcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacdevobjpropref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacprop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacpropstates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacreal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bacstr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bactext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bigend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\bvlc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\cov.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\crc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\datalink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\datetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\dcc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\fifo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\filename.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\getevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\get_alarm_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\iam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\ihave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\indtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\key.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\keylist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\lso.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\memcopy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\mstp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\mstptext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\npdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\proplist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\ptransfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\rd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\readrange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\reject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\ringbuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\rp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\rpm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\sbuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\timestamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\timesync.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\tsm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\whohas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\whois.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\wp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\stack\wpm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\ai.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\ao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\av.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\bacfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\bi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\bo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\bv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\csv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\lc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\lo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\lsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\ms-input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\mso.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\msv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\object\trendlog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\dlenv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_alarm_ack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_arf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_arf_a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_awf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_ccov.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_cov.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_dcc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_gas_a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_getevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_get_alarm_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_iam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_ihave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_lso.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_npdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_pt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_pt_a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_rd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_rp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_rpm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_rpm_a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_rp_a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_rr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_rr_a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_ts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_ucov.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_upt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_whohas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_whois.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_wp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\h_wpm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\noserv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_ack_alarm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_arfs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_awfs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_cevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_cov.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_dcc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_iam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_ihave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_lso.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_ptransfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_rd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_readrange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_router.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_rp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_rpm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_ts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_uevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_upt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_whohas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_whois.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_wp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\s_wpm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\handler\txbuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\ports\win32\bip-init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\work_xing\project\eview-commondriver\source\drivers\bacnetdrv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\work_xing\project\eview-commondriver\cmake-temp\drivers\bacnetdrv\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FE3D8789-B4F5-3D85-BA37-B622A5AAF7A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

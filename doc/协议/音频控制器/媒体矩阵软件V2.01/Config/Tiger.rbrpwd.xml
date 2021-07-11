@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SerializableDictionaryOfStringListOfLoginUserInfo xmlns="User">
+  <SerializableDictionary>
+    <key>
+      <string xmlns="">00-11-12-15-1E-80-00-00</string>
+    </key>
+    <value>
+      <ArrayOfLoginUserInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+        <LoginUserInfo UserType="USER_ADMIN" IsRem="true" Name="admin" Pwd="z4WWIigZHqk=" />
+      </ArrayOfLoginUserInfo>
+    </value>
+  </SerializableDictionary>
+</SerializableDictionaryOfStringListOfLoginUserInfo>
