@@ -210,7 +210,7 @@ PKDRIVER_EXPORTS long InitDevice(PKDEVICE *pDevice)
 	if(pDevice->szParam2 != NULL && atoi(pDevice->szParam2) != 0)
 		 pDevice->nUserData[DEVPARAM_RWCMD] = atoi(pDevice->szParam2);
 
-	// 参数3：每个块最大字节数  modbus每种设备都有所不同，应该是作为参数传过来比较合适
+	// 参数3：每个块最大字节数  modbus每种设备都有所不同，应该是作为参数传过来比较合适;
 	if(strlen(pDevice->szParam3) > 0)
 	{
 		int nCfgMaxBytes = ::atoi(pDevice->szParam3);
@@ -219,7 +219,6 @@ PKDRIVER_EXPORTS long InitDevice(PKDEVICE *pDevice)
 	}
 
 	// 获取到所有的tag点。需要在tag点存储块内偏移（位）、长度（位），组包含的tag点对象列表（以便计算）
-
 	// 进行自组块处理，将所有的tag点自组块成BLOCK
 	GroupVector vecTagGroup;
 	GROUP_OPTION groupOption;
@@ -256,7 +255,10 @@ PKDRIVER_EXPORTS long InitDevice(PKDEVICE *pDevice)
 
 
 		PKTIMER timerInfo;
-		timerInfo.nPeriodMS = pTagGrp->nPollRate;
+		//timerInfo.nPeriodMS = pTagGrp->nPollRate;
+		if (pDevice->szParam4 != NULL && atoi(pDevice->szParam4) != 0)
+			timerInfo.nPeriodMS = atoi(pDevice->szParam4);
+
 		timerInfo.pUserData[0] = pTagGrp;
 		void *pTimerHandle = Drv_CreateTimer(pDevice, &timerInfo); // 设定定时器
 		Drv_LogMessage(PK_LOGLEVEL_NOTICE, "modbustcp, device:%s, autogroup:%s,tagcount:%d, cycle:%d ms,registertype:%s,startregno:%d,endregno:%d", 

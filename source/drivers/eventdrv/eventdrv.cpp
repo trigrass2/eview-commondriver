@@ -76,7 +76,7 @@ PKDRIVER_EXPORTS long InitDevice(PKDEVICE *pDevice)
 {
 	Drv_LogMessage(PK_LOGLEVEL_INFO, "InitDevice(%s), connparam:%s, param1:%s", pDevice->szName, pDevice->szConnParam, pDevice->szParam1);
 	PKTIMER pkTimer;
-	pkTimer.nPeriodMS = 2000;
+	pkTimer.nPeriodMS = atoi(pDevice->szParam4);
 	Drv_CreateTimer(pDevice, &pkTimer);
 	Drv_LogMessage(PK_LOGLEVEL_INFO, "Device:%s, InitDevice OK, tagcount:%d;", pDevice->szName, pDevice->nTagNum);
 	return 0;
@@ -189,6 +189,8 @@ bool FindOnePackage(PKDEVICE *pDevice, char *pBuffer, int nLen, int &nOffset, in
 	bool bFound = false;
 	char *pPackBegin = pBuffer;
 	char *pPackEnd = pBuffer + nLen;
+	if (nLen < 23)
+		return bFound;
 	while (pPackBegin < pPackEnd)
 	{
 		if ((pPackBegin[0] == nStationNun) && (pPackBegin[1] == nFunctionCode) && (nLen >= OnePackageLength))
